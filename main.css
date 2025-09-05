@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    --acent: #FFE400;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*
+font-family: 'Abril Fatface', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Kanit', sans-serif;
+*/
+
+img,
+ion-icon {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+html {
+    background: rgb(15,13,10);
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*------------------------------=PART 1=--------------------------------*/
+
+
+section.a {
+    height: 100vh;
+    width: 100%;
+}
+
+div.a-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(img/Thai-food-background-one.jpg);
+    object-fit: cover;
+    background-size: 100%;
+    background-position: 0px -300px;
+    filter: contrast(0.5) saturate(1.5);
+}
+
+div.a-title {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-content: center;
+}
+
+div.a-title p {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    -webkit-filter: drop-shadow(0px 40px 20px rgba(0, 0, 0, 0.40));
+    filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.40));
+}
+
+section.b {
+    height: 100vh;
+    width: 100%;
+}
+
+div.b-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(img/Thai-food-background-two.png);
+    object-fit: cover;
+    background-size: 100%;
+    background-position: 0px -300px;
+    filter: contrast(0.5) saturate(1.5);
+}
+
+section.c {
+    height: 100vh;
+    width: 100%;
+}
+
+div.c-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(img/thai-food-background-three.jpg);
+    object-fit: cover;
+    background-size: 100%;
+    background-position: 0px -300px;
+    filter: contrast(0.5) saturate(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
